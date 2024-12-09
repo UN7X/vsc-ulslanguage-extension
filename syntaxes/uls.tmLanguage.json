@@ -1,0 +1,18 @@
+{
+    "scopeName": "source.uls",
+    "patterns": [
+        {
+            "include": "#comments"
+        }
+    ],
+    "repository": {
+        "comments": {
+            "patterns": [
+                {
+                    "name": "comment.line.number-sign.uls",
+                    "match": "#.*$"
+                }
+            ]
+        }
+    }
+}
